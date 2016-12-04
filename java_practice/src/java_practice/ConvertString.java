@@ -10,6 +10,7 @@ public class ConvertString {
 	    for (int i = 0; i < word.length(); i++) {
 	        arr[i] += Character.toLowerCase(word.charAt(i)) - 'a' + 1;
 	        System.out.println(arr);
+	        System.out.println(arr);
 	    }
 	}
 	
