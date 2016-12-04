@@ -1,4 +1,4 @@
-package java_practice;
+package janelle;
 
 import java.util.Arrays;
 

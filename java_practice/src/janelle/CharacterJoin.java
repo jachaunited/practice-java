@@ -1,4 +1,4 @@
-package java_practice;
+package janelle;
 
 public class CharacterJoin {
 	

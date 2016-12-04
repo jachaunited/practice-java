@@ -1,4 +1,4 @@
-package java_practice;
+package janelle;
 
 //Check if input number is divisble by 7 or 4 or both.
 public class Divisibility {
