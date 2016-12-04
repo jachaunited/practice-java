@@ -6,10 +6,12 @@ public class CountClamps {
 		int[] test_arr1 = { 1, 2, 2, 3, 4, 4, 2 };
 		int[] test_arr2 = { 2, 2, 3, 4, 4 };
 		int[] test_arr3 = { 1, 1, 1, 1, 1, 1 };
+		int[] test_arr4 = { 1, 2, 3, 2, 4 };
 
 		System.out.println(countClamps(test_arr1));
 		System.out.println(countClamps(test_arr2));
 		System.out.println(countClamps(test_arr3));
+		System.out.println(countClamps(test_arr4));
 
 	}
 
@@ -23,9 +25,11 @@ public class CountClamps {
 					nextNext = arr.length -1;
 				}
 				if (arr[current] == arr[next] && current != next) {
-					if(arr[next] != arr[nextNext]) {
+//					if(arr[next] != arr[nextNext]) {
 						result++;	
-					}
+//					} else if(arr[next] == arr[nextNext] && arr.length % 2 == 0) {
+//						result = 1;
+//					}
 				}
 			}
 		}
