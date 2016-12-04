@@ -5,13 +5,14 @@ public class ConvertString {
 	
 	void convertToInt(String word) {
 		int[] arr = new int[word.length()];	
-		//int sum = 0;
+		int sum = 0;
 		
 	    for (int i = 0; i < word.length(); i++) {
 	        arr[i] += Character.toLowerCase(word.charAt(i)) - 'a' + 1;
-	        System.out.println(arr);
-	        System.out.println(arr);
+	        sum = sum += arr[i];
+	        System.out.println(arr[i]);
 	    }
+        System.out.println(sum);
 	}
 	
 	public static void main(String[] args) {
